@@ -1,0 +1,33 @@
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#welcome {
+	padding-top: 30px;
+}
+
+#terminal {
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+	box-shadow: 15px 15px 15px #999;
+	-webkit-box-shadow: 15px 15px 15px #999;
+	-moz-box-shadow: 15px 15px 15px #999;
+
+	padding: 20px;
+	position: absolute;
+	margin-top: -260px; /* height 750/2 + padding (20+20)/2  */
+	margin-left: -395px; /* width 750/2 + padding (20+20)/2  */
+	left: 50%; top: 50%;
+}
+
+#helpcmd {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	padding: 5px;
+	background-color: #FFE2E0;
+}
